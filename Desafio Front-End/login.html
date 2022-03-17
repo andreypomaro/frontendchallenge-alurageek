@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - AluraGeek</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index/header.css">
+  <link rel="stylesheet" href="./css/index/footer.css">
+  <link rel="stylesheet" href="./css/index/responsivo.css">
+  <link rel="stylesheet" href="./css/login/login.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header-logo--pesquisa">
+      <img class="header-logo" src="./img/logo.svg" alt="Logo Alura Geek">
+      <div class="campo-pesquisa">
+        <input type="search" name="pesquisa" id="input-pesquisa" placeholder="O que deseja encontrar?">
+        <a href="#"><img src="./img/pesquisa.svg" alt="Pesquisar" id="icone-pesquisa"></a>
+      </div>
+    </nav>
+    <nav class="botao">
+      <a class="botao-login" href="./login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <form class="form-login">
+      <p class="login-titulo">Iniciar Sessão</p>
+      <div class="login-inputs">
+        <input type="email" id="input-email" placeholder="Escreva seu E-mail" required>
+        <input type="password" id="input-senha" placeholder="Digite sua senha" required>
+        <div class="login-botao">
+          <a class="botao-entrar" href="#">Entrar</a>
+        </div>
+      </div>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <section class="footer">
+      <div class="footer-logo">
+        <a href="#"><img class="footer-logo-img" src="./img/logo.svg" alt="Logo"></a>
+      </div>
+
+      <div class="footer-lista">
+        <ul class="lista-links">
+          <a href="#">
+            <li class="lista-links-li">Quem somos nós</li>
+          </a>
+          <a href="#">
+            <li class="lista-links-li">Politica de privacidade</li>
+          </a>
+          <a href="#">
+            <li class="lista-links-li">Programa de fidelidade</li>
+          </a>
+          <a href="#">
+            <li class="lista-links-li">Nossas lojas</li>
+          </a>
+          <a href="#">
+            <li class="lista-links-li">Quero ser granqueado</li>
+          </a>
+          <a href="#">
+            <li class="lista-links-li">Anuncie aqui</li>
+          </a>
+        </ul>
+      </div>
+
+      <div">
+        <form class="form-contato">
+          <p class="form-titulo">Fale Conosco</p>
+          <div class="form-faleConosco">
+            <input type="text" required id="form-nome" placeholder="Nome">
+            <input type="text" required id="form-mensagem" placeholder="Escreva sua mensagem">
+            <div id="form-botao">
+              <a class="main-botao" href="#">Enviar mensagem</a>
+            </div>
+          </div>
+        </form>
+        </div>
+    </section>
+
+    <section class="rodape">
+      <p>Desenvolvido por Andrey Pomaro</p>
+      <p>2022</p>
+    </section>
+
+  </footer>
+
+</body>
+
+</html>
