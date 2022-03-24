@@ -1,0 +1,46 @@
+body {
+    font-family: "Raleway";
+}
+
+.cadastro-produto {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.titulo-cadastro {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.campo-inserir-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.campo-arrastar-arquivo{
+    border: 2px solid #C8C8C8;
+    border-style: dashed;
+    width: 282px;
+    text-align: center;
+}
+
+.campo-arrastar-arquivo img {
+    width: 32px;
+    padding: 1em 0;
+}
+
+.campo-arrastar-arquivo p {
+    font-size: 0.85em;
+    width: 218px;
+    padding-left: 3em;
+    padding-bottom: 1em;
+}
+
+.p-ou {
+    margin: 0 1em;
+    color: #464646;
+    font-weight: bold;
+}

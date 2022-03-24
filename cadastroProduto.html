@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index/header.css">
+    <link rel="stylesheet" href="./css/index/footer.css">
+    <link rel="stylesheet" href="./css/cadastroProduto/style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-logo--pesquisa">
+          <a href="./index.html"><img class="header-logo" src="./img/logo.svg" alt="Logo Alura Geek"></a>
+          <div class="campo-pesquisa">
+            <input type="search" name="pesquisa" id="input-pesquisa" placeholder="O que deseja encontrar?">
+            <a href="#"><img src="./img/pesquisa.svg" alt="Pesquisar" id="icone-pesquisa"></a>
+          </div>
+        </nav>
+        <nav class="botao">
+          <a class="botao-login" href="./login.html">Login</a>
+        </nav>
+      </header>
+
+    <main>
+
+        <section class="cadastro-produto">
+            <h1 class="titulo-cadastro">Adicionar novo produto</h1>
+            <div class="campo-inserir-imagem">
+                <div class="campo-arrastar-arquivo">
+                    <img src="./img/cadastro.svg" alt="Arreste a Foto aqui">
+                    <p>Arraste para adicionar uma imagem para o produto</p>
+                </div>
+                <p class="p-ou">Ou</p>
+                <div class="botao-adicionar-arquivo">
+                    <a href="#">Procure no seu computador</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer">
+          <div class="footer-logo">
+            <a href="./index.html"><img class="footer-logo-img" src="./img/logo.svg" alt="Logo"></a>
+          </div>
+  
+          <div class="footer-lista">
+            <ul class="lista-links">
+              <a href="#">
+                <li class="lista-links-li">Quem somos nós</li>
+              </a>
+              <a href="#">
+                <li class="lista-links-li">Politica de privacidade</li>
+              </a>
+              <a href="#">
+                <li class="lista-links-li">Programa de fidelidade</li>
+              </a>
+              <a href="#">
+                <li class="lista-links-li">Nossas lojas</li>
+              </a>
+              <a href="#">
+                <li class="lista-links-li">Quero ser granqueado</li>
+              </a>
+              <a href="#">
+                <li class="lista-links-li">Anuncie aqui</li>
+              </a>
+            </ul>
+          </div>
+  
+          <div">
+            <form class="form-contato">
+              <p class="form-titulo">Fale Conosco</p>
+              <div class="form-faleConosco">
+                <input type="text" required id="form-nome" placeholder="Nome">
+                <input type="text" required id="form-mensagem" placeholder="Escreva sua mensagem">
+                <div id="form-botao">
+                  <a class="main-botao" href="#">Enviar mensagem</a>
+                </div>
+              </div>
+            </form>
+            </div>
+        </section>
+  
+        <section class="rodape">
+          <p>Desenvolvido por Andrey Pomaro</p>
+          <p>2022</p>
+        </section>
+      </footer>
+    
+</body>
+</html>
