@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;  
+  margin-top: 40px;
+}
+
+.header-logo {
+  width: 12em;
+}
+
+.header-logo--pesquisa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.campo-pesquisa {
+  background-color:#f5f5f5;
+  border:none 1px;
+  border-radius:20px;
+  width: 360px;
+  height: 40px;
+  margin-left: 3em;
+}
+
+#input-pesquisa{
+  float:left;
+  background-color:transparent;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style:normal;
+  margin-top: 5px;
+  margin-left: 10px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+#icone-pesquisa {
+  margin-left: 50px;  
+  margin-top: 10px;
+}
+
+.botao {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 200px;
+}
+
+.botao-login{
+  color:#2A7AE4;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  border: solid 1px #2A7AE4;
+  padding: 10px 40px 10px 40px;
+  
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
