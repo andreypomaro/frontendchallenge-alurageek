@@ -1,8 +1,13 @@
+@import url(../index/header.css);
+@import url(../index/footer.css);
+@import url(../responsivo-header.css);
+@import url(../responsivo-footer.css);
+
 main {
   height: 50vh;
 }
 
-.form-login{
+.form-login {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +16,7 @@ main {
   height: 50vh;
 }
 
-.login-titulo{
+.login-titulo {
   font-size: 1.5em;
   font-weight: bold;
   color: #464646;
@@ -19,12 +24,12 @@ main {
   margin-bottom: 30px;
 }
 
-.login-inputs{
+.login-inputs {
   display: flex;
   flex-direction: column;
 }
 
-#input-email{
+#input-email {
   margin-bottom: 20px;
   width: 425px;
   height: 63px;
@@ -33,7 +38,7 @@ main {
   padding: 5px;
 }
 
-#input-senha{
+#input-senha {
   margin-bottom: 20px;
   width: 425px;
   height: 63px;
@@ -52,15 +57,15 @@ main {
   margin-bottom: 60px;
 }
 
-.botao-entrar{
+.botao-entrar {
   font-size: 1.5em;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
 }
 
-.footer{
+.footer {
   margin-top: 0px;
 }
 

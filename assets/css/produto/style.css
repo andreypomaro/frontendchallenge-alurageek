@@ -1,3 +1,8 @@
+@import url(../index/header.css);
+@import url(../index/footer.css);
+@import url(../responsivo-header.css);
+@import url(../responsivo-footer.css);
+
 .header {
   margin-bottom: 1em;
 }
@@ -15,7 +20,7 @@ main {
 
 }
 
-.foto-produto-destaque{
+.foto-produto-destaque {
   width: 560px;
   height: 403px;
   object-fit: cover;
@@ -42,7 +47,7 @@ main {
   margin-bottom: 0.4em;
 }
 
-.produto-destaque-mensagem{
+.produto-destaque-mensagem {
   font-size: 1em;
 }
 
@@ -64,8 +69,8 @@ main {
 
 .categoria-verMais {
   color: #2A7AE4;
-  font-size: 18px; 
-  font-weight: bold; 
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .categoria-verMais-link {
@@ -80,30 +85,30 @@ main {
   margin-bottom: 4em;
 }
 
-.produtos-categoria{
+.produtos-categoria {
   display: flex;
   justify-content: space-around;
   list-style: none;
   width: 100%;
 }
 
-.produto-titulo{
-font-size: 15px;
-font-weight: 500, medium;
-margin-top: 10px;
+.produto-titulo {
+  font-size: 15px;
+  font-weight: 500, medium;
+  margin-top: 10px;
 }
 
-.produto-preco{
-font-size: 18px;
-font-weight: 700;
-margin-top: 8px;
+.produto-preco {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 8px;
 }
 
-.produto-link{
-text-decoration: none;
-color: #2A7AE4;
-margin-top: 10px;
-font-weight: bold;
+.produto-link {
+  text-decoration: none;
+  color: #2A7AE4;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .footer {
@@ -117,4 +122,3 @@ font-weight: bold;
   padding: 18px 15px;
   margin-top: 20px;
 }
-
