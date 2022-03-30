@@ -1,3 +1,6 @@
+@import url(../responsivo-header.css);
+@import url(../responsivo-footer.css);
+
 @media (max-width: 1440px) {
   .categoria-titulo {
     margin-left: 1em;
@@ -14,7 +17,6 @@
   } 
 
   .bloco-titulo{
-    margin-left: 50px;
     padding-top: 150px;
     width: 100%;
   }
@@ -34,9 +36,7 @@
 
 @media (max-width: 768px) {
   .bloco-titulo{
-    margin-left: 30px;
     padding-top: 180px;
-    width: 100%;
   }  
 
   .categoria-titulo {
@@ -46,9 +46,7 @@
 
 @media (max-width: 767px) {
   .bloco-titulo{
-    margin-left: 30px;
     padding-top: 80px;
-    width: 100%;
   }   
 
   .main-titulo{
@@ -64,7 +62,7 @@
   }
 
   .categoria {
-    margin-top: 40vw;
+    margin-top: 3em;
   }
   
   .categoria-titulo {

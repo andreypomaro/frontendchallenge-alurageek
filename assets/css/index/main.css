@@ -1,20 +1,18 @@
-.main {
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 41.15%, rgba(0,0,0,0.8) 100%), url(../../img/background.jpg);
-  position: static;
+.bloco-titulo {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 41.15%, rgba(0,0,0,0.8) 100%), url(../../img/background.jpg);  
   width: 100%;
-  height: 400px;
+  height: 50vh;
   margin-top: 40px;
   background-position: center;
   background-size:cover;
-}
-
-.bloco-titulo {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 150px;
-  padding-top: 190px;
+  padding-top: 8.75rem  ;
+}
+
+.bloco-titulo div {
+  margin-left: 5rem;
 }
 
 .main-titulo {
@@ -29,6 +27,7 @@
   font-size: 1.5em;
   margin-top: 20px;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 .main-botao {
@@ -36,9 +35,4 @@
   color: white;
   background: #2A7AE4;
   padding: 18px 15px;
-  margin-top: 20px;
-}
-
-.main {
-  font-family: 'Raleway', sans-serif;
 }
