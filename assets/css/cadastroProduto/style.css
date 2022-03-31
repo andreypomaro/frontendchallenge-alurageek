@@ -2,6 +2,7 @@
 @import url(../index/footer.css);
 @import url(../responsivo-header.css);
 @import url(../responsivo-footer.css);
+@import url(../cadastroProduto/responsivo.css);
 
 header {
     background: white;
