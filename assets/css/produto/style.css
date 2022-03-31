@@ -21,8 +21,8 @@ main {
 }
 
 .foto-produto-destaque {
-  width: 560px;
-  height: 403px;
+  width: 25%;
+  height: 10%;
   object-fit: cover;
 }
 
