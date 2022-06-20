@@ -1,0 +1,15 @@
+.botao {
+  font-weight: var(--peso-texto);
+  color: var(--branco);
+  background-color: var(--azul);
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.botao:hover {
+  background-color: var(--branco);
+  color: var(--azul);
+  border: 1px solid var(--azul);
+  transition: .5s;
+}

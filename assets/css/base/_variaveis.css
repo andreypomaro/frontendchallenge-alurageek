@@ -1,0 +1,21 @@
+:root {
+  --azul: #2A7AE4;
+  --azul-fundo: #EAF2FD;
+  --branco: #FFFFFF;
+  --cinza: #464646;
+  --cinza-fundo: #E5E5E5;
+
+  --familia-pagina: 'Raleway', sans-serif;
+
+  --peso-titulo: 700;
+  --peso-texto: 600;
+  --peso-preco: 700;
+  --peso-link: 700;
+  --peso-rodape: 500;
+  --peso-input: 400;
+
+  --tamanho-titulo: 1.375rem;
+  --tamanho-corpo: 0.875rem;
+  --tamanho-preco: 1rem;
+  --tamanho-texto-rodape: 1rem;
+}

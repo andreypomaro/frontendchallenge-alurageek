@@ -1,91 +1,58 @@
-@import url(../responsivo-header.css);
-@import url(../responsivo-footer.css);
-
-@media (max-width: 1440px) {
-  .categoria-titulo {
-    margin-left: 1em;
-  }
-  
-  .categoria-verMais{
-    margin-right: -2em;
-  }  
-}
-
-@media (max-width: 1130px) {
-  .categoria-verMais{
-    margin-right: 0;
-  } 
-
-  .bloco-titulo{
-    padding-top: 150px;
-    width: 100%;
+@media screen and (min-width: 768px) {
+  .flex-item:nth-child(2) {
+    order: 3;
   }
 
-  .categoria-titulo {
-    margin-left: 40px;
+  #divBusca {
+    display: block;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 300px;
   }
 
-  .container-produtos:nth-child(5){
-    display: none;
+  #txtBusca {
+    display: block;
+    float: left;
+    background-color: transparent;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
   }
 
-  .container-produtos:nth-child(4){
-    display: none;
-  }  
-}
-
-@media (max-width: 768px) {
-  .bloco-titulo{
-    padding-top: 180px;
-  }  
-
-  .categoria-titulo {
-    margin-left: 20px;
-  }  
-}
-
-@media (max-width: 767px) {
-  .bloco-titulo{
-    padding-top: 80px;
-  }   
-
-  .main-titulo{
-    font-size: 8vw;
+  #btnBusca {
+    padding-top: 8px;
   }
 
-  .main-subtitulo{
-    font-size: 5vw;
+  .destaque {
+    height: 352px;
   }
 
-  .main-botao{
-    margin-bottom: 50px;
+  .titulo-destaque {
+    font-size: 52px;
   }
 
-  .categoria {
-    margin-top: 3em;
-  }
-  
-  .categoria-titulo {
-    margin-left: 5vw;
+  .subtitulo {
+    font-size: 22px;
   }
 
-  .container-produtos:nth-child(5){
-    display: none;
+  .botaoResponsivo {
+    margin-bottom: 3rem;
   }
 
-  .container-produtos:nth-child(4){
-    display: none;
+  .footer__lista {
+    text-align: left;
   }
-  .produtos-categoria{
-    flex-wrap: wrap;
-  }  
-  .container-produtos {
+
+  .footer__responsivo {
     display: flex;
-    width: 40%;
-    flex-wrap: wrap;
-  } 
-  .produto-item{
     width: 100%;
-    margin-bottom: 20px;
-  }  
+    justify-content: space-around;
+    background-color: var(--azul-fundo);
+    padding-top: 1rem;
+  }
 }
+
+@media screen and (min-width: 1440px) {}

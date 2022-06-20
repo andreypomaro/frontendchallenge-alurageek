@@ -1,0 +1,27 @@
+@import url(/assets/css/base/_variaveis.css);
+
+body {
+  font-family: var(--familia-pagina);
+  color: var(--cinza);
+  font-size: var(--tamanho-corpo);
+}
+
+.container {
+  padding-left: .875rem;
+  padding-right: .875rem;
+}
+
+.titulo {
+  font-size: var(--tamanho-titulo);
+}
+
+.titulo-destaque {
+  color: var(--branco);
+  font-size: var(--tamanho-titulo);
+  font-weight: var(--peso-titulo);
+  line-height: 1.625rem;
+}
+
+.subtitulo {
+  color: var(--branco);
+}
